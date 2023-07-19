@@ -1,5 +1,5 @@
 package main.java.mediconnect.modelo.dao.usuario;
 
-public class UsuarioDAOImpl {
+public class UsuarioDAOImpl implements UsuarioDAO {
 
 }

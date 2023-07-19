@@ -1,5 +1,5 @@
 package main.java.mediconnect.modelo.dao.consulta;
 
-public class ConsultaDAOImpl {
+public class ConsultaDAOImpl implements ConsultaDAO {
 
 }

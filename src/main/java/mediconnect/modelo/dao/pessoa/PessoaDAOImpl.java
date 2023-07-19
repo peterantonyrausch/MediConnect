@@ -1,5 +1,5 @@
 package main.java.mediconnect.modelo.dao.pessoa;
 
-public class PessoaDAOImpl {
+public class PessoaDAOImpl implements PessoaDAO {
 
 }

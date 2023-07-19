@@ -1,5 +1,5 @@
 package main.java.mediconnect.modelo.dao.paciente;
 
-public class PacienteDAOImpl {
+public class PacienteDAOImpl implements PacienteDAO {
 
 }
