@@ -1,5 +1,6 @@
 package main.java.mediconnect.modelo.entidade.consulta;
 
+import java.io.Serializable;
 import java.time.LocalDate;
 import java.time.LocalTime;
 
@@ -9,8 +10,10 @@ import main.java.mediconnect.modelo.entidade.paciente.Paciente;
 import main.java.mediconnect.modelo.entidade.profissionalDeSaude.ProfissionalDeSaude;
 import main.java.mediconnect.modelo.enumeracao.consulta.StatusConsulta;
 
-public class Consulta {
+public class Consulta implements Serializable {
 
+	private static final long serialVersionUID = -3442054462063366299L;
+	
 	// ATRIBUTOS
 	private Integer id;
 	private EspecialidadeProfissional especialidadeProfissional;
@@ -34,7 +37,7 @@ public class Consulta {
 		setPaciente(paciente);
 		setStatus(status);
 	}
-	
+
 	// MÉTODOS DE ACESSO
 
 	// Id
