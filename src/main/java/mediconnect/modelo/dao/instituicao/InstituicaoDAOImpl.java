@@ -1,5 +1,5 @@
 package main.java.mediconnect.modelo.dao.instituicao;
 
-public class InstituicaoDAOImpl {
+public class InstituicaoDAOImpl implements InstituicaoDAO {
 
 }

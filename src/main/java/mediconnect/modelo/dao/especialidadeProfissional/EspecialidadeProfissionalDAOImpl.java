@@ -1,5 +1,5 @@
 package main.java.mediconnect.modelo.dao.especialidadeProfissional;
 
-public class EspecialidadeProfissionalDAOImpl {
+public class EspecialidadeProfissionalDAOImpl implements EspecialidadeProfissionalDAO{
 
 }
