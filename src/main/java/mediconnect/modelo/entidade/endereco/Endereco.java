@@ -11,6 +11,13 @@ public class Endereco {
         this.estado = estado;
     }
 
+    public void setNumero(String numero) {
+        this.numero = numero;
+    }
+    
+    public String getCep() {
+        return cep;
+
     public String getBairro() {
         return bairro;
     }
