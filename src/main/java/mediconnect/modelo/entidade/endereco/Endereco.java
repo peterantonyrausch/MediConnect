@@ -11,6 +11,10 @@ public class Endereco {
         this.numero = numero;
     }
 
+    public void setNumero(String numero) {
+        this.numero = numero;
+    }
+    
     public String getCep() {
         return cep;
     }
